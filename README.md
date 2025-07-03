@@ -1,5 +1,8 @@
 # React + Vite
 
+usando este repo : https://github.com/adrianhajdin/react-movies
+kit resources reac-movies del tipo este : https://jsmastery.com/video-kit/dd0f1153-ba7f-44c9-a450-0acdb954902b
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:

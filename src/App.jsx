@@ -1,23 +1,20 @@
-import './App.css'
+import React from 'react'
 
-import ViteFotos from './viteComponents/ViteFotos.jsx'
-import ViteCounter from './viteComponents/ViteCounter.jsx'
-import ViteMensaje from './viteComponents/ViteMensaje.jsx'
-import ViteH1 from './viteComponents/ViteH1.jsx'
-import Card from './franComponents/Card.jsx'
+const App = () => {
+  return(
+    <main>
+      <div>
+        <div className='pattern'/>
+        <div className='wrapper'>
+          <header>
+            <h1>Encontra las <span className='text-gradient'>peliculas</span> Argentinas en The Movie Database </h1>
+          </header>
+        </div>
 
-function App() {
-  return (
-    <>
-      <Card title="Tony Montana"/>
-      <Card title="Scarface"/>
-
-      <ViteFotos/>
-      <ViteH1/>
-      <ViteCounter/>     
-      <ViteMensaje/>
-    </>
+      </div>
+    </main>    
   )
 }
+
 
 export default App
