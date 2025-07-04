@@ -1,8 +1,16 @@
 import React from 'react'
 
-const Buscar = () => {
+const Buscar = ({buscarTerm, setBuscarTerm}) => {
     return(
-        <div className='text-white text-3xl'> Buscar 🔍 </div>
+        <div className='search'>
+            <div>
+                <img src="search.svg" alt="search"/>
+                <input type="text"
+                    placeholder='Busca peliculas de argentina' 
+                    value={buscarTerm} 
+                    onChange={(evento) => setBuscarTerm(evento.target.value)}/> 
+            </div>
+        </div>
     )
 }
 
