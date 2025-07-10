@@ -1,6 +1,6 @@
 import React from 'react'
-import {useEffect, useState } from 'react'
 
+import {useEffect, useState } from 'react'
 import  Buscar  from './components/Buscar.jsx'
 
 const TMDB_URL = 'https://api.themoviedb.org/3'
